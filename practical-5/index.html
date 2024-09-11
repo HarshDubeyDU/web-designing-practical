@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admission Form</title>
+</head>
+<body>
+    <main>
+        <form action method="post" class="glassmorphism-form">
+            <h3>Admission Form</h3>
+            <label for="firstName">
+                <input type="text" placeholder="Fist Name">
+            </label>
+            <label for="lastName">
+                <input type="text" placeholder="Last Name">
+            </label>
+            <label for="email">
+                <input type="email" placeholder="Email">
+            </label>
+            <label for="password">
+                <input type="password" placeholder="Password">
+            </label>
+            <label for="interest">Interest
+                <select>
+                    <option>Please select</option>
+                    <option value="AI">AI</option>
+                    <option value="Blockchain">Blockchain</option>
+                    <option value="Cloud">Cloud</option>
+                    <option value="Research">Research</option>
+                </select>
+            </label>
+            <legend>Part of society
+                <input name="partOfSociety" type="radio" value="Yes">
+                    <label>Yes</label>
+                <input name="partOfSociety" type="radio" value="No"> No
+            </legend>
+            <label for="activities">Activities
+                <input name="activities" type="checkbox"> Reading
+                <input name="activities" type="checkbox"> Writing
+                <input name="activities" type="checkbox"> Dancing
+                <input name="activities" type="checkbox"> Cricket
+            </label>
+            <div class="form-buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

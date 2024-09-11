@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+.green {
+  background-color: #00b050;
+}
+.red {
+  background-color: #e6b8b7;
+}
+.blue {
+  background-color: #00b0f0;
+}
+.yellow {
+  background-color: #ffc000;
+}
+.light-green {
+  background-color: #92d050;
+}
+.light-red {
+  background-color: #f4cccc;
+}
+.lunch-break {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  background-color: #f2f2f2;
+}
